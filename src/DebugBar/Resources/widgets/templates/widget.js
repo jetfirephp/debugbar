@@ -17,7 +17,7 @@
 
             this.bindAttr('data', function(data) {
                 this.$dom.empty();
-                $('<div />').html(data.templates).appendTo(this.$dom);
+                $('<div />').html(data).appendTo(this.$dom);
             });
         }
 
