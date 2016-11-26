@@ -33,7 +33,7 @@ class TwigCollector extends DataCollector implements Renderable, AssetProvider
     private $dumper;
     private $profiler;
 
-    public function __construct(TwigProfilerDumperArray $dumper,Twig_Profiler_Profile $profiler)
+    public function __construct(TwigProfilerDumperHtml $dumper,Twig_Profiler_Profile $profiler)
     {
         $this->dumper = $dumper;
         $this->profiler = $profiler;
